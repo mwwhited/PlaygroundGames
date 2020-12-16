@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackyardBattlefield.BumperCars", "BackyardBattlefield.BumperCars\BackyardBattlefield.BumperCars.csproj", "{1110419E-2334-4D86-B931-882DD43C0B2D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackyardBattlefield.Common", "BackyardBattlefield.Common\BackyardBattlefield.Common.csproj", "{00F15B73-E4B1-469F-BD49-04C1465CBF49}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DrawTest", "DrawTest\DrawTest.csproj", "{BFA86AF3-B9F1-4374-8DE8-4CA0BDD6964C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1110419E-2334-4D86-B931-882DD43C0B2D}.Debug|x86.ActiveCfg = Debug|x86
+		{1110419E-2334-4D86-B931-882DD43C0B2D}.Debug|x86.Build.0 = Debug|x86
+		{1110419E-2334-4D86-B931-882DD43C0B2D}.Release|x86.ActiveCfg = Release|x86
+		{1110419E-2334-4D86-B931-882DD43C0B2D}.Release|x86.Build.0 = Release|x86
+		{00F15B73-E4B1-469F-BD49-04C1465CBF49}.Debug|x86.ActiveCfg = Debug|x86
+		{00F15B73-E4B1-469F-BD49-04C1465CBF49}.Debug|x86.Build.0 = Debug|x86
+		{00F15B73-E4B1-469F-BD49-04C1465CBF49}.Release|x86.ActiveCfg = Release|x86
+		{00F15B73-E4B1-469F-BD49-04C1465CBF49}.Release|x86.Build.0 = Release|x86
+		{C7AF6956-ED99-4ACA-946D-21C7BFAE8070}.Debug|x86.ActiveCfg = Debug|x86
+		{C7AF6956-ED99-4ACA-946D-21C7BFAE8070}.Release|x86.ActiveCfg = Release|x86
+		{066D11A6-947E-4C75-8CB3-46B8D091186D}.Debug|x86.ActiveCfg = Debug|x86
+		{066D11A6-947E-4C75-8CB3-46B8D091186D}.Release|x86.ActiveCfg = Release|x86
+		{BFA86AF3-B9F1-4374-8DE8-4CA0BDD6964C}.Debug|x86.ActiveCfg = Debug|x86
+		{BFA86AF3-B9F1-4374-8DE8-4CA0BDD6964C}.Debug|x86.Build.0 = Debug|x86
+		{BFA86AF3-B9F1-4374-8DE8-4CA0BDD6964C}.Release|x86.ActiveCfg = Release|x86
+		{BFA86AF3-B9F1-4374-8DE8-4CA0BDD6964C}.Release|x86.Build.0 = Release|x86
+		{FB06CAA4-D285-4E68-A9EF-D31E7A7C13BE}.Debug|x86.ActiveCfg = Debug|x86
+		{FB06CAA4-D285-4E68-A9EF-D31E7A7C13BE}.Release|x86.ActiveCfg = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,8 @@
+﻿https://stackoverflow.com/questions/55680881/monogame-3-7-1-on-win10-vs2015-2017-mgcb-too-many-arguments
+https://github.com/MonoGame/MonoGame/issues/2105
+https://github.com/MonoGame/MonoGame/issues/6695
+www.monogame.net/documentation/?page=Porting_from_XNA
+https://web.archive.org/web/20110217153321/http://www.nelxon.com/blog/xna-3-1-to-xna-4-0-cheatsheet/
+community.monogame.net/t/solved-pipeline-tool-is-not-working-anymore-importer-fbximporter-had-unexpected-failure/6242
+https://www.codeproject.com/articles/1041397/updating-old-fbx-files-for-the-modern-era
+

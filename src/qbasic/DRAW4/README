@@ -1,0 +1,14 @@
+	QCADD ver. 4.00
+	       By: Matthew Whited
+		finished April 5, 1996
+		
+	This program includes
+		* Color Palette for VGA display mode (Default mode)
+		* Option of changing any color to any shade
+		* Three display modes (Black and White, EGA, VGA)
+	Warning
+		* Do not try to load any pictures into this program that 
+			were not drawn in it
+		* For better use of this program use the batch file that
+			came with it
+

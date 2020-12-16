@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PongWin", "PongWin.csproj", "{2BE7D63A-6DA8-425C-992D-218FBC0B47A6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2BE7D63A-6DA8-425C-992D-218FBC0B47A6}.Debug|x86.ActiveCfg = Debug|x86
+		{2BE7D63A-6DA8-425C-992D-218FBC0B47A6}.Debug|x86.Build.0 = Debug|x86
+		{2BE7D63A-6DA8-425C-992D-218FBC0B47A6}.Release|x86.ActiveCfg = Release|x86
+		{2BE7D63A-6DA8-425C-992D-218FBC0B47A6}.Release|x86.Build.0 = Release|x86
+		{D255C4B7-FCB6-45A9-9481-99E389E7523D}.Debug|x86.ActiveCfg = Debug|x86
+		{D255C4B7-FCB6-45A9-9481-99E389E7523D}.Release|x86.ActiveCfg = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

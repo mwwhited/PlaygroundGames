@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StrategoXna", "StrategoXna\StrategoXna\StrategoXna.csproj", "{48676082-46E2-47F7-96CC-D91D9DF9408F}"
+EndProject
+Project("{96E2B04D-8817-42C6-938A-82C39BA4D311}") = "StrategoXnaContent", "StrategoXna\StrategoXnaContent\StrategoXnaContent.contentproj", "{417A3C0D-7452-4F15-BC46-25DEE69896C0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{48676082-46E2-47F7-96CC-D91D9DF9408F}.Debug|x86.ActiveCfg = Debug|x86
+		{48676082-46E2-47F7-96CC-D91D9DF9408F}.Debug|x86.Build.0 = Debug|x86
+		{48676082-46E2-47F7-96CC-D91D9DF9408F}.Release|x86.ActiveCfg = Release|x86
+		{48676082-46E2-47F7-96CC-D91D9DF9408F}.Release|x86.Build.0 = Release|x86
+		{417A3C0D-7452-4F15-BC46-25DEE69896C0}.Debug|x86.ActiveCfg = Debug|x86
+		{417A3C0D-7452-4F15-BC46-25DEE69896C0}.Release|x86.ActiveCfg = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

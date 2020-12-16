@@ -1,0 +1,25 @@
+﻿<Window x:Class="ScrollerEngineGameEditor.EnemySelector"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:diagnostics="clr-namespace:System.Diagnostics;assembly=WindowsBase"
+    Height="300" Width="300">
+    <Grid>
+        <WrapPanel>
+            <!--SelectedValuePath="AvailableCharacters"-->
+            <!--ItemsSource="{Binding AvailableCharacters.Values, diagnostics:PresentationTraceSources.TraceLevel=High }"-->
+            <ComboBox Height="23" Margin="0,14,9,0" Name="comboBox1"
+                  DataContext="{Binding Path=AvailableCharacters, diagnostics:PresentationTraceSources.TraceLevel=High }"
+                  VerticalAlignment="Top"
+                  HorizontalAlignment="Right" Width="120">
+                <ComboBox.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="{Binding ElementName=Key}"></TextBlock>
+                        </StackPanel>
+                    </DataTemplate>
+                </ComboBox.ItemTemplate>
+            </ComboBox>
+            <Button Click="Button_Click">Test</Button>
+        </WrapPanel>
+    </Grid>
+</Window>

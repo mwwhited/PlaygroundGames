@@ -1,0 +1,69 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29728.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToolKit", "ToolKit\ToolKit.csproj", "{88DA6D85-7BF5-43B6-86B6-BC583C3B47F3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HexTile2d.MonoGame", "HexTile2d.MonoGame\HexTile2d.MonoGame.csproj", "{5980D3EC-482A-46DA-A8A3-E1E7C77C8ED5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Debug|Xbox 360 = Debug|Xbox 360
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+		Release|Xbox 360 = Release|Xbox 360
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{88DA6D85-7BF5-43B6-86B6-BC583C3B47F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88DA6D85-7BF5-43B6-86B6-BC583C3B47F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88DA6D85-7BF5-43B6-86B6-BC583C3B47F3}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{88DA6D85-7BF5-43B6-86B6-BC583C3B47F3}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{88DA6D85-7BF5-43B6-86B6-BC583C3B47F3}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{88DA6D85-7BF5-43B6-86B6-BC583C3B47F3}.Debug|Xbox 360.ActiveCfg = Debug|Any CPU
+		{88DA6D85-7BF5-43B6-86B6-BC583C3B47F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88DA6D85-7BF5-43B6-86B6-BC583C3B47F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88DA6D85-7BF5-43B6-86B6-BC583C3B47F3}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{88DA6D85-7BF5-43B6-86B6-BC583C3B47F3}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{88DA6D85-7BF5-43B6-86B6-BC583C3B47F3}.Release|x86.ActiveCfg = Release|Any CPU
+		{88DA6D85-7BF5-43B6-86B6-BC583C3B47F3}.Release|Xbox 360.ActiveCfg = Release|Any CPU
+		{5980D3EC-482A-46DA-A8A3-E1E7C77C8ED5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5980D3EC-482A-46DA-A8A3-E1E7C77C8ED5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5980D3EC-482A-46DA-A8A3-E1E7C77C8ED5}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{5980D3EC-482A-46DA-A8A3-E1E7C77C8ED5}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{5980D3EC-482A-46DA-A8A3-E1E7C77C8ED5}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{5980D3EC-482A-46DA-A8A3-E1E7C77C8ED5}.Debug|x86.Build.0 = Debug|Any CPU
+		{5980D3EC-482A-46DA-A8A3-E1E7C77C8ED5}.Debug|Xbox 360.ActiveCfg = Debug|Any CPU
+		{5980D3EC-482A-46DA-A8A3-E1E7C77C8ED5}.Debug|Xbox 360.Build.0 = Debug|Any CPU
+		{5980D3EC-482A-46DA-A8A3-E1E7C77C8ED5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5980D3EC-482A-46DA-A8A3-E1E7C77C8ED5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5980D3EC-482A-46DA-A8A3-E1E7C77C8ED5}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{5980D3EC-482A-46DA-A8A3-E1E7C77C8ED5}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{5980D3EC-482A-46DA-A8A3-E1E7C77C8ED5}.Release|x86.ActiveCfg = Release|Any CPU
+		{5980D3EC-482A-46DA-A8A3-E1E7C77C8ED5}.Release|x86.Build.0 = Release|Any CPU
+		{5980D3EC-482A-46DA-A8A3-E1E7C77C8ED5}.Release|Xbox 360.ActiveCfg = Release|Any CPU
+		{5980D3EC-482A-46DA-A8A3-E1E7C77C8ED5}.Release|Xbox 360.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {60A1C8F0-3BC1-4631-B1A7-255F352597CA}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://whitedus.visualstudio.com/
+		SccProjectUniqueName0 = ToolKit\\ToolKit.csproj
+		SccProjectName0 = ToolKit
+		SccLocalPath0 = ToolKit
+		SccLocalPath1 = .
+		SccProjectUniqueName2 = HexTile2d.MonoGame\\HexTile2d.MonoGame.csproj
+		SccProjectName2 = HexTile2d.MonoGame
+		SccLocalPath2 = HexTile2d.MonoGame
+	EndGlobalSection
+EndGlobal

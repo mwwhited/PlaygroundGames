@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent>
+  <Asset Type="ScrollerEngineData.GameEntry">
+    <FirstLevel>Level001</FirstLevel>
+    <Levels>
+      <Item>
+        <Key>Level002</Key>
+        <Value>
+          <TextureName>Level002</TextureName>
+          <GravityWind>0 0.5</GravityWind>
+          <DefaultStartPoint>0</DefaultStartPoint>
+          <StartPoints>
+            <Item>
+              <Key>1</Key>
+              <Value>
+                <SavedBounds>241 198 32 32</SavedBounds>
+              </Value>
+            </Item>
+            <Item>
+              <Key>2</Key>
+              <Value>
+                <SavedBounds>120 411 32 32</SavedBounds>
+              </Value>
+            </Item>
+            <Item>
+              <Key>3</Key>
+              <Value>
+                <SavedBounds>725 388 32 32</SavedBounds>
+              </Value>
+            </Item>
+          </StartPoints>
+          <Goals>
+            <Item>
+              <Key>1</Key>
+              <Value>
+                <SavedBounds>542 73 32 32</SavedBounds>
+                <TargetLevelName>Level001</TargetLevelName>
+              </Value>
+            </Item>
+          </Goals>
+          <EnemyStartPoints>
+            <Item>
+              <Key>1</Key>
+              <Value>
+                <SavedBounds>585 368 32 32</SavedBounds>
+                <EnemyName>BadDude</EnemyName>
+              </Value>
+            </Item>
+            <Item>
+              <Key>2</Key>
+              <Value>
+                <SavedBounds>89 46 32 32</SavedBounds>
+                <EnemyName>BadDude</EnemyName>
+              </Value>
+            </Item>
+            <Item>
+              <Key>3</Key>
+              <Value>
+                <SavedBounds>381 221 32 32</SavedBounds>
+                <EnemyName>BadDude</EnemyName>
+              </Value>
+            </Item>
+          </EnemyStartPoints>
+          <BackdropName>Level002_Back</BackdropName>
+        </Value>
+      </Item>
+      <Item>
+        <Key>Level001</Key>
+        <Value>
+          <TextureName>Level001</TextureName>
+          <GravityWind>0 0.5</GravityWind>
+          <DefaultStartPoint>0</DefaultStartPoint>
+          <StartPoints>
+            <Item>
+              <Key>1</Key>
+              <Value>
+                <SavedBounds>673 418 32 32</SavedBounds>
+              </Value>
+            </Item>
+            <Item>
+              <Key>2</Key>
+              <Value>
+                <SavedBounds>288 220 32 32</SavedBounds>
+              </Value>
+            </Item>
+          </StartPoints>
+          <Goals>
+            <Item>
+              <Key>1</Key>
+              <Value>
+                <SavedBounds>663 33 32 32</SavedBounds>
+                <TargetLevelName>Level002</TargetLevelName>
+              </Value>
+            </Item>
+          </Goals>
+          <EnemyStartPoints>
+            <Item>
+              <Key>1</Key>
+              <Value>
+                <SavedBounds>121 65 32 32</SavedBounds>
+                <EnemyName>BadDude</EnemyName>
+              </Value>
+            </Item>
+            <Item>
+              <Key>2</Key>
+              <Value>
+                <SavedBounds>484 82 32 32</SavedBounds>
+                <EnemyName>BadDude</EnemyName>
+              </Value>
+            </Item>
+          </EnemyStartPoints>
+          <BackdropName>Level001_Back</BackdropName>
+        </Value>
+      </Item>
+    </Levels>
+    <AvailableCharacters>
+      <Item>
+        <Key>TinyDude</Key>
+        <Value>
+          <TextureName>TinyDude</TextureName>
+          <jumpSpeed>20</jumpSpeed>
+          <runFactor>5</runFactor>
+          <superPower>2</superPower>
+          <highStep>3</highStep>
+        </Value>
+      </Item>
+    </AvailableCharacters>
+    <AvailableEnemies>
+      <Item>
+        <Key>BadDude</Key>
+        <Value>
+          <TextureName>BadDude</TextureName>
+          <jumpSpeed>20</jumpSpeed>
+          <runFactor>5</runFactor>
+          <superPower>2</superPower>
+          <highStep>3</highStep>
+          <JumpOdds>.75</JumpOdds>
+          <PowerJumpOdds>.75</PowerJumpOdds>
+        </Value>
+      </Item>
+    </AvailableEnemies>
+    <DefaultFontName>Comic_Sans_MS</DefaultFontName>
+  </Asset>
+</XnaContent>

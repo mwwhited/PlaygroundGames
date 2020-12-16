@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29728.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3E99644D-C634-48D0-AEC0-9B30DAF14520}"
+	ProjectSection(SolutionItems) = preProject
+		localtestrun.testrunconfig = localtestrun.testrunconfig
+		tetris.vsmdi = tetris.vsmdi
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "tetris", "tetris\tetris.vbproj", "{3F312CA6-6885-4DF5-A59F-906500AFDB09}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "testTetris", "testTetris\testTetris.csproj", "{E67A048F-F863-4BA8-8C61-248A856AA34B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tetrisagain", "tetrisagain\tetrisagain.csproj", "{6F667CE9-C59C-45AA-9D10-643CB2F2B298}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3F312CA6-6885-4DF5-A59F-906500AFDB09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F312CA6-6885-4DF5-A59F-906500AFDB09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F312CA6-6885-4DF5-A59F-906500AFDB09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F312CA6-6885-4DF5-A59F-906500AFDB09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E67A048F-F863-4BA8-8C61-248A856AA34B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E67A048F-F863-4BA8-8C61-248A856AA34B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E67A048F-F863-4BA8-8C61-248A856AA34B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E67A048F-F863-4BA8-8C61-248A856AA34B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F667CE9-C59C-45AA-9D10-643CB2F2B298}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F667CE9-C59C-45AA-9D10-643CB2F2B298}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F667CE9-C59C-45AA-9D10-643CB2F2B298}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F667CE9-C59C-45AA-9D10-643CB2F2B298}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E8E4447E-44D0-4261-96C9-6D2556B2C55D}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://whitedus.visualstudio.com/
+		SccProjectUniqueName0 = tetrisagain\\tetrisagain.csproj
+		SccProjectName0 = tetrisagain
+		SccLocalPath0 = tetrisagain
+		SccProjectUniqueName1 = testTetris\\testTetris.csproj
+		SccProjectName1 = testTetris
+		SccLocalPath1 = testTetris
+		SccProjectUniqueName2 = tetris\\tetris.vbproj
+		SccProjectName2 = tetris
+		SccLocalPath2 = tetris
+		SccLocalPath3 = .
+	EndGlobalSection
+EndGlobal
