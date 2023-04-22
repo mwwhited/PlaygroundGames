@@ -1,17 +1,17 @@
 
 // https://medium.com/@viveik.chauhan/how-i-bypass-crowdstrike-restriction-1bc558abd464
+// https://github.com/OneLoneCoder/olcPixelGameEngine/wiki/Hello-World
 
+
+#define OLC_PGE_APPLICATION
 #include <iostream>
 #include <olcPixelGameEngine/olcPixelGameEngine.h>
 
-
-// Override base class with your custom functionality
 class Example : public olc::PixelGameEngine
 {
 public:
 	Example()
 	{
-		// Name your application
 		sAppName = "Example";
 	}
 
@@ -24,7 +24,7 @@ public:
 
 	bool OnUserUpdate(float fElapsedTime) override
 	{
-		// Called once per frame, draws random coloured pixels
+		// called once per frame
 		for (int x = 0; x < ScreenWidth(); x++)
 			for (int y = 0; y < ScreenHeight(); y++)
 				Draw(x, y, olc::Pixel(rand() % 256, rand() % 256, rand() % 256));
@@ -32,10 +32,12 @@ public:
 	}
 };
 
+
 int main()
 {
 	Example demo;
 	if (demo.Construct(256, 240, 4, 4))
 		demo.Start();
+
 	return 0;
 }
