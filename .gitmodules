@@ -1,0 +1,3 @@
+[submodule "libs/olcPixelGameEngine"]
+	path = libs/olcPixelGameEngine
+	url = https://github.com/mwwhited-forks/olcPixelGameEngine
